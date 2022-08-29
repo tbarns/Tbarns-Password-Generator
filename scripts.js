@@ -19,10 +19,10 @@ function writePassword() {
 function generatePassword() {
     var passwordLength = window.prompt("How many characters would you like to use?")
       
-    if(passwordLength >= 7),
-     (passwordLength <= 129); {
+    if(passwordLength > 8 || passwordLength < 128) {
        window.prompt("INVALID INPUT! Password must contain between 8 - 128 charecters.")
-    }else{
+    }   //stores the value
+    else{
     }
 
     {
@@ -32,7 +32,7 @@ function generatePassword() {
 
  window.confirm("Would you like to use numbers?");
 
- window.confirm("Would you like to use special charecters?");
+ window.confirm("Would you like to use special characters?");
     }
   
   }
