@@ -9,13 +9,15 @@ var passwordLength = window.prompt("how long?")
 console.log(passwordLength)
 
 
-var generatePassword = function(){
+function askUser(){
+  var generatePassword = getCharSet(function()
 
 
-  if (passwordLength > 8 || passwordLength < 128) {
-    return};
+  if(passwordLength > 8 || passwordLength < 128) {
+    askUser()};
 
-  if
+  else
+)
 }
 
 // Write password to the #password input

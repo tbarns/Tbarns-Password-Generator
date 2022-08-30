@@ -18,15 +18,16 @@ function writePassword() {
 }
 function generatePassword() {
     var passwordLength = window.prompt("How many characters would you like to use?")
-      
+      console.log(passwordLength)
     if(passwordLength > 8 || passwordLength < 128) {
        window.prompt("INVALID INPUT! Password must contain between 8 - 128 charecters.")
-    }   //stores the value
+    } 
     else{
     }
 
     {
  window.confirm("Would you like to use UPPERCASE?");
+
 
  window.confirm("Would you like to use lowercase?");
 
@@ -38,3 +39,4 @@ function generatePassword() {
   }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
