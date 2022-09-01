@@ -7,10 +7,14 @@ function generatePassword() {
   var passwordLength = parseInt(passwordPromt)
 
   if (passwordLength < 8 || passwordLength > 128) {
-    window.alert("INVALID INPUT! Password must contain between 8 - 128 charecters.")
+    window.alert("INVALID INPUT! Password must contain between 8 - 128 characters.")
     return
   }
-
+  if (!passwordLength){
+    window.alert("ERROR! You must designate a password length to continue!!")
+    return
+  }
+  
   var upperConfirm = window.confirm("Would you like to use UPPERCASE?");
   console.log(upperConfirm)
   var lowerConfirm = window.confirm("Would you like to use lowercase?");
