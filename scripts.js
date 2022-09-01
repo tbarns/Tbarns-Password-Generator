@@ -84,14 +84,14 @@ function generatePassword() {
     window.alert("Invalid input! You must select one or more option.")
     return
   }
-  var password = []
+  var newPassword = []
   
    //for loop to genereate random combination of user choices
   for (var i = 0; i < passwordLength; i++) {
     var randomChoices = Math.floor(Math.random() * userChoices.length )
-    password +=userChoices[randomChoices]  
+    newPassword +=userChoices[randomChoices]  
   }
-  return password;
+  return newPassword;
 }
 
 
