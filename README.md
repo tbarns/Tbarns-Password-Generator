@@ -5,7 +5,7 @@ I was tasked to use JavaScript to create a password generator that prompted the 
 This application presented several challenges.  I needed to turn the user’s choice of the password length from a string into a number.  Additionally, I needed to take in all the characters the user selected and generate a random choice that reflected the choices the specified.
 
 ## Installation 
-
+https://tbarns.github.io/password-generator/
 
 ## Usage 
 
