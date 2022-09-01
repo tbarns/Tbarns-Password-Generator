@@ -9,9 +9,9 @@ https://tbarns.github.io/password-generator/
 
 ## Usage 
 
- <img src="Screenshot-1.png"   alt="Screenshot of live webpage" />
- <img src="Screenshot-2.png"   alt="Screenshot of live webpage" />
- <img src="Screenshot-3.png"   alt="Screenshot of live webpage" />
+ <img src="Screenshot-1.png"   alt="Screenshot of live webpage">
+ <img src="Screenshot-2.png"   alt="Screenshot of live webpage">
+ <img src="Screenshot-3.png"   alt="Screenshot of live webpage">
 
 
 ## Credits
